@@ -1,0 +1,136 @@
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #0d0d1a, #1a1a2e);
+  color:#ffcc00 ;
+  background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+  background-repeat: repeat;
+}
+
+header {
+ background: rgba(18, 18, 40, 0.95);
+  color: #ffcc00;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  text-shadow: 0 0 10px #ffd700;
+}
+nav a   { 
+  margin: 0 15px;
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #ffffff;
+}
+
+
+.book-list {
+ 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+ 
+
+
+
+.book {
+
+
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 20px rgba(255,255,255,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.book:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(255, 255, 100, 0.3);
+}
+.book h3 {
+  color: #ffe600;
+  margin-bottom: 10px;
+  text-shadow: 0 0 6px #ffe600;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  background-color: #11112b;
+}
+.books img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ffe600;
+}
+
+footer {
+  background-color: #3a3a7c;
+  color: #ffcc00;
+  text-align: center;
+  padding: 10px;
+  background: rgba(18, 18, 40, 0.95);
+}
+
+
+
+button {
+  padding: 10px;
+ 
+  color:#f6c90e;
+background-color:rgba(18, 18, 40, 0.95);
+  border: none;
+  cursor: pointer;
+}
+
+.section {
+  padding: 40px 10%;
+  background-color: rgba(255, 255, 255, 0.02);
+  margin: 30px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.05);
+}
+.section h2 {
+  color: #f6c90e;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-shadow: 0 0 8px #f6c90e;
+}
+
+
+.books img{
+  width: 150px;
+  height: 150px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section1 {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+input textarea {
+  padding: 10px;
+  font-size: 1rem;
+}
+button:hover{
+ 
+  color: white;
+}
